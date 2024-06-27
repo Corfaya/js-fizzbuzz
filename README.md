@@ -3,7 +3,7 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i mult
 BONUS 1: Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 BONUS 2: Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
-# Flow
+# Flow (progetto principale)
 Descrivo un ciclo for: eseguo un codice per ogni numero assegnato a una variabile che parte da 1 e incrementa fino a 100
     ? SE il numero è divisibile solo per 3
         mostro in console "Fizz"
@@ -14,7 +14,7 @@ Descrivo un ciclo for: eseguo un codice per ogni numero assegnato a una variabil
     ALTRIMENTI
         mostro in console solo il numero
 
-# BONUS 1
+# BONUS 1 (cartella bonus)
 All'inizio dello script, recupero dall'HTML il div#container
 Nel ciclo for
     Dichiaro una variabile "div" non inizializzata
@@ -35,6 +35,6 @@ Nel ciclo for
             Inserisco come contenuto dell'elemento il testo la variabile di iterazione attraverso la proprietà innerText
             Con il metodo append(), aggiungo in coda l'elemento creato
 
-# BONUS 2
+# BONUS 2 (cartella bonus)
 In TUTTE le condizioni
     Aggiungo alla variabile "div" la proprietà classList con metodo add() per aggiungere uno stile CSS diverso per ogni situazione
