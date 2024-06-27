@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #052b129d;
+    color: #052b129d;
+}
+
 /* JS */
 .square {
     display: flex;
@@ -13,6 +18,12 @@
     aspect-ratio: 1 / 1;
     margin: 3px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 .both-style{
