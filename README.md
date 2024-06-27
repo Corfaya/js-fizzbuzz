@@ -36,3 +36,5 @@ Nel ciclo for
             Con il metodo append(), aggiungo in coda l'elemento creato
 
 # BONUS 2
+In TUTTE le condizioni
+    Aggiungo alla variabile "div" la proprietà classList con metodo add() per aggiungere uno stile CSS diverso per ogni situazione
