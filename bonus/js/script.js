@@ -10,22 +10,26 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         div = document.createElement("div")
         div.innerText = "FizzBuzz";
+        div.classList.add("square")
+        div.classList.add("both-style")
         container.append(div);
-        // console.log("FizzBuzz")
     } else if (i % 5 === 0) {
         div = document.createElement("div")
         div.innerText = "Buzz";
+        div.classList.add("square")
+        div.classList.add("five-style")
         container.append(div);
-        // console.log("Buzz")
     } else if (i % 3 === 0) {
         div = document.createElement("div")
         div.innerText = "Fizz";
+        div.classList.add("square")
+        div.classList.add("three-style")
         container.append(div);
-        // console.log("Fizz")
     } else {
         div = document.createElement("div")
         div.innerText = i;
+        div.classList.add("square")
+        div.classList.add("num-style")
         container.append(div);
-        // console.log(i)
     }
 }
