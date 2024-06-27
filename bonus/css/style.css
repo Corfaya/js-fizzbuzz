@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* JS */
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.both-style{
+    background-color: paleturquoise;
+}
+
+.five-style {
+    background-color: palegreen;
+}
+
+.three-style {
+    background-color: palegoldenrod;
+}
+
+.num-style {
+    background-color: palevioletred;
+}
