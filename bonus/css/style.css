@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 9);
+    width: calc(100% / 10 - 6px);
     aspect-ratio: 1 / 1;
     margin: 3px;
     border-radius: 10px;
